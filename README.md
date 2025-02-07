@@ -1,6 +1,4 @@
-<h1>Amigo Secreto 🕵️</h1>
-
-### Um sorteador de nomes para você realizar um amigo secreto perfeito.
+![Image](https://github.com/user-attachments/assets/15ec2c45-2636-455a-9144-05dba9f63e3d)
 
 ### Tutorial do funcionamento
 
