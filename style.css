@@ -142,7 +142,7 @@ ul {
     text-align: center;
 }
 
-/* Botão de sortear título */
+/* Botão de sortear */
 .button-draw {
     display: flex;
     align-items: center;
@@ -151,6 +151,7 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    margin-top: 50px;
 }
 
 .button-draw img {
@@ -159,4 +160,15 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+#botao-ocultar {
+    border: 1px solid black;
+    margin-left: 38px;
 }

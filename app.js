@@ -5,7 +5,6 @@ let input = document.querySelector('input');
 let listaDeAmigos = document.querySelector('#listaAmigos');
 
 
-
 botao.addEventListener('click', function() {
     let textoInseridoPeloUsuario = input.value;
     if (textoInseridoPeloUsuario == '') {
@@ -46,3 +45,16 @@ document.addEventListener('keydown', function(event) {
         botao.click();
     }
 });
+
+function ocultarNomeSecreto() {
+    let botaoOcultar = document.getElementById('botao-ocultar');
+    document.getElementById('#botao-ocultar')
+    listaDeAmigos.classList.toggle('oculto');
+    resultado.classList.toggle('oculto');
+    
+    if (listaDeAmigos.classList.contains('oculto')) {
+        botaoOcultar.textContent = 'Mostrar nomes';
+    } else {
+        botaoOcultar.textContent = 'Ocultar nomes';
+    }
+}
